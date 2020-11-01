@@ -1,0 +1,22 @@
+#! /bin/bash
+
+# Comprobar antes de nada cual es la ultima versión
+# https://www.ui.com/download/unifi/unifi-cloud-key/default/unifi-network-controller-6023-debianubuntu-linux-and-unifi-cloud-key
+# Sustituir el wget por la nueva versión
+
+clear
+sudo apt install openjdk-8-jre-headless 
+wget https://dl.ui.com/unifi/6.0.23/unifi_sysvinit_all.deb
+sudo dpkg -i unifi_sysvinit_all.deb
+sudo apt -f install
+sudo dpkg -i unifi_sysvinit_all.deb
+sudo systemctl stop mongodb sudo systemctl disable mongodb
+clear
+
+echo "Instalacion realizada con éxito"
+echo ""
+echo "Conectese através de su navegador con la siguiente dirección"
+echo ""
+echo "tú ip"
+hostname -I
+echo "Puerto: 8443"
