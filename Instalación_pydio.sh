@@ -71,5 +71,5 @@ echo "                              / /_/ / / / / / / / / /_/ / / / / /  / /___/
 echo "                              \__,_/_/ /_/ /_/ /_/\__,_/_/ /_/_/  /_//____/  "
 echo "                                  /___/                                      "
 echo ""
-echo "                              Instalacion de pydio terminada                 "
+echo "                              Script de instalación finalizado               "
 echo ""
